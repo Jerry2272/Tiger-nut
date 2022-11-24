@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="..//Css files/bootstrap.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+         .page-1{
+            background: url("..//Images/Usa-mansion.jpg"); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: green;
+            background-blend-mode: overlay;
+            height: 704px;
+            color: white;
+            font-size: 42px;
+            font-weight: 500;
+            text-align: center;
+         }
+         .page-2{
+             background-color: rgb(255, 144, 20);
+             background: radial-gradient(
+                circle,
+                rgba(255, 144, 20,0.8),
+                rgba(4, 205,98,0.2)
+             );
+             background-size: cover;
+             height: 704px;
+             width: 100%;
+             color: green;
+             font-size: 30px;
+             font-weight: 500;
+             text-align: center;
+             margin-top: 30px;
+         }
+         @keyframes page-3{
+            0%{
+                 background: url("..//Images/Jerry\ jake.webp");
+                 background-repeat: no-repeat;
+            }
+            5%{
+                 background: url("..//Images/uk-flag.png");
+                 background-repeat: no-repeat;
+            }
+            30%{
+                 background: url("..//Images/nigerian\ flag.jpg");
+                 background-repeat: no-repeat;
+                 color:rgba(4, 205,98,0.2);
+                 font-size: 50px;
+            }
+            50%{
+                 background: url("..//Images/images-Jesus\ died.jpg");
+                 background-repeat: no-repeat;
+
+            }
+            75%{
+                 background: url("..//Images/Jesus\ on\ the\ Cross.jpg");
+                 background-repeat: no-repeat;
+                 color:rgb(255, 144, 20);
+            }
+            100%{
+                 background: yellow;
+                 color: white;
+            }
+         }
+         .page-3{
+            animation: page-3 2.5s infinite;
+            height: 704px;
+            width: 100%;
+            background-size: cover;
+            font-size: 35px;
+            color: white;
+         }
+         .page-4{
+            background:rgb(40, 209, 17);
+            background: linear-gradient(rgba(255,0,118,0.5),rgba(100,89,112,0.2));
+            background-size: cover;
+            height: 704px;
+            width:100%;
+         }
+    </style>
+</head>
+<body style="background: lightseagreen;">
+    <div class="container">
+        <div class="page-1" style="width: 100%;">
+             <h1 class="ms ps-3">The Css blend</h1>
+        </div>
+        <hr style="border: 3px solid yellow">
+        <div class="page-2">
+              <h1>Gradient</h1>
+        </div>
+        <hr style="border: 3px solid yellow">
+        <div class="page-3">
+             <h1>Animation</h1>
+        </div>
+        <hr style="border: 3px solid yellow">
+        <div class="page-4">
+              <h1>Linear-Gradient</h1>
+        </div>
+    </div>
+</body>
+</html>
